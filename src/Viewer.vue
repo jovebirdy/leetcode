@@ -10,7 +10,7 @@
       </transition>
     </main>
     <footer class="copyright">
-      powerd by <a href="https://github.com/Ma63d/leetcode-viewer" target="_blank">leetcode-viewer</a>
+      back to <a href="https://blog.yanss.top" target="_blank">有约如铁</a>
     </footer>
   </div>
 </template>
