@@ -10,7 +10,7 @@
       </transition>
     </main>
     <footer class="copyright">
-      back to <a href="https://blog.yanss.top" target="_blank">有约如铁</a>
+      back to <a href="https://blog.yanss.top">有约如铁</a>
     </footer>
   </div>
 </template>
