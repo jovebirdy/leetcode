@@ -1,0 +1,3 @@
+{
+  "java": "class Solution {\n    public int minCostClimbingStairs(int[] cost) {\n        int [] mc = new int[cost.length + 1];\n        mc[0] = cost[0];\n        mc[1] = cost[1];\n\n        for(int i = 2; i <= cost.length; i++){\n            int costV = (i==cost.length)?0:cost[i];\n            mc[i] = Math.min(mc[i-1] + costV, mc[i-2] + costV);\n        }\n        return mc[cost.length];\n    }\n}\n"
+}
