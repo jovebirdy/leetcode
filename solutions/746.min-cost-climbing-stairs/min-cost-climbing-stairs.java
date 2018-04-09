@@ -1,4 +1,5 @@
 class Solution {
+    //状态转移方程 f(n) = min{[f(n-1)+cost(n)], [f(n-2)+cost(n)]
     public int minCostClimbingStairs(int[] cost) {
         int[] mc = new int[cost.length + 1];
         mc[0] = cost[0];
