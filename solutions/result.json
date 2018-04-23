@@ -35,6 +35,15 @@
     ],
     "generated": true
   },
+  "198": {
+    "id": "198",
+    "level": 1,
+    "title": "house-robber",
+    "language": [
+      "java"
+    ],
+    "generated": true
+  },
   "28": {
     "id": "28",
     "level": 1,
@@ -305,8 +314,8 @@
     ],
     "generated": true
   },
-  "lastUpdatedTime": "2018-04-13",
+  "lastUpdatedTime": "2018-04-23",
   "total": 811,
-  "solved": 38,
+  "solved": 39,
   "locked": 133
 }
