@@ -62,6 +62,15 @@
     ],
     "generated": true
   },
+  "303": {
+    "id": "303",
+    "level": 1,
+    "title": "range-sum-query-immutable",
+    "language": [
+      "java"
+    ],
+    "generated": true
+  },
   "338": {
     "id": "338",
     "level": 1,
@@ -305,6 +314,15 @@
     ],
     "generated": true
   },
+  "760": {
+    "id": "760",
+    "level": 1,
+    "title": "find-anagram-mappings",
+    "language": [
+      "java"
+    ],
+    "generated": true
+  },
   "8": {
     "id": "8",
     "level": 1,
@@ -314,8 +332,8 @@
     ],
     "generated": true
   },
-  "lastUpdatedTime": "2018-04-23",
+  "lastUpdatedTime": "2018-04-24",
   "total": 811,
-  "solved": 39,
+  "solved": 41,
   "locked": 133
 }
