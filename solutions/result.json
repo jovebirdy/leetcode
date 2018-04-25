@@ -8,6 +8,15 @@
     ],
     "generated": true
   },
+  "121": {
+    "id": "121",
+    "level": 1,
+    "title": "best-time-to-buy-and-sell-stock",
+    "language": [
+      "java"
+    ],
+    "generated": true
+  },
   "125": {
     "id": "125",
     "level": 1,
@@ -332,8 +341,8 @@
     ],
     "generated": true
   },
-  "lastUpdatedTime": "2018-04-24",
+  "lastUpdatedTime": "2018-04-25",
   "total": 811,
-  "solved": 41,
+  "solved": 43,
   "locked": 133
 }

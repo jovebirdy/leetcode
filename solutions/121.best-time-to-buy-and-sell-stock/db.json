@@ -1,0 +1,3 @@
+{
+  "java": "class Solution {\n    public int maxProfit(int[] prices) {\n        int minSoFar = Integer.MAX_VALUE;\n        int maxProfit = 0;\n        for (int i = 0; i < prices.length; i++) {\n            minSoFar = Math.min(minSoFar, prices[i]);\n            maxProfit = Math.max(maxProfit, prices[i] - minSoFar);\n        }\n        \n        return maxProfit;\n    }\n    /*public int maxProfit(int[] prices) {\n        int maxCur = 0, maxSoFar = 0;\n        for(int i = 1; i < prices.length; i++) {\n            maxCur = Math.max(0, maxCur += prices[i] - prices[i-1]);\n            maxSoFar = Math.max(maxCur, maxSoFar);\n        }\n        return maxSoFar;\n    }*/\n}\n"
+}
