@@ -296,6 +296,15 @@
     ],
     "generated": true
   },
+  "70": {
+    "id": "70",
+    "level": 1,
+    "title": "climbing-stairs",
+    "language": [
+      "java"
+    ],
+    "generated": true
+  },
   "728": {
     "id": "728",
     "level": 1,
@@ -341,8 +350,8 @@
     ],
     "generated": true
   },
-  "lastUpdatedTime": "2018-04-25",
+  "lastUpdatedTime": "2018-04-27",
   "total": 811,
-  "solved": 43,
+  "solved": 44,
   "locked": 133
 }
