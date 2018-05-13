@@ -1,3 +1,1 @@
-{
-  "java": "class Solution {\n    public int rob(int[] nums) {\n        int length = nums.length;\n        if (length == 0) return 0;\n        else if (length == 1) return nums[0];\n        else {\n            int[] res = new int[length + 1];\n            res[0] = 0;\n            res[1] = nums[0];\n            for (int i = 2; i <= length; i++) {\n                res[i] = Math.max(res[i - 1], res[i - 2] + nums[i-1]);\n            }\n        return res[length];\n        }\n    }\n}\n"
-}
+{"java":"class Solution {\n    public int rob(int[] nums) {\n        int length = nums.length;\n        if (length == 0) return 0;\n        else if (length == 1) return nums[0];\n        else {\n            int[] res = new int[length + 1];\n            res[0] = 0;\n            res[1] = nums[0];\n            for (int i = 2; i <= length; i++) {\n                res[i] = Math.max(res[i - 1], res[i - 2] + nums[i-1]);\n            }\n        return res[length];\n        }\n    }\n}"}

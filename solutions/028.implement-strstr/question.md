@@ -1,17 +1,23 @@
-[28] Implement strStr()
-<br>https://leetcode.com/problems/implement-strstr/description/
-<br>algorithms
-<br>Easy (28.91%)
-<br>Total Accepted:    258.8K
-<br>Total Submissions: 895.2K
-<br>Testcase Example:  '"hello"\n"ll"'
-<br>Implement strStr().
-<br>Return the index of the first occurrence of needle in haystack, or -1 if
-<br>needle is not part of haystack.
-<br>Example 1:
-<br>Input: haystack = "hello", needle = "ll"
-<br>Output: 2
-<br>Example 2:
-<br>Input: haystack = "aaaaa", needle = "bba"
-<br>Output: -1
-<br>
+Implement strStr().
+
+Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+
+Example 1:
+
+
+Input: haystack = &quot;hello&quot;, needle = &quot;ll&quot;
+Output: 2
+
+
+Example 2:
+
+
+Input: haystack = &quot;aaaaa&quot;, needle = &quot;bba&quot;
+Output: -1
+
+
+Clarification:
+
+What should we return when needle is an empty string? This is a great question to ask during an interview.
+
+For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C&#39;s&nbsp;strstr() and Java&#39;s&nbsp;indexOf().

@@ -1,3 +1,0 @@
-{
-  "sql": "update salary\n    set sex = (case sex\n        when 'm' then 'f'\n        else 'm'\n        end);\n\n"
-}

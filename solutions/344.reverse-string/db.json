@@ -1,3 +1,1 @@
-{
-  "java": "class Solution {\n    public String reverseString(String s) {\n        StringBuilder t = new StringBuilder();\n        for(int i = s.length()-1; i >= 0 ; i--){\n            t.append(s.charAt(i));\n        }\n        return t.toString();\n    }\n}\n"
-}
+{"java":"/*\r\n * [344] Reverse String\r\n *\r\n * https://leetcode.com/problems/reverse-string/description/\r\n *\r\n * algorithms\r\n * Easy (60.19%)\r\n * Total Accepted:    231K\r\n * Total Submissions: 383.8K\r\n * Testcase Example:  '\"hello\"'\r\n *\r\n * Write a function that takes a string as input and returns the string\r\n * reversed.\r\n * \r\n * \r\n * Example:\r\n * Given s = \"hello\", return \"olleh\".\r\n * \r\n */\r\nclass Solution {\r\n    public String reverseString(String s) {\r\n        StringBuilder t = new StringBuilder();\r\n        for(int i = s.length()-1; i >= 0 ; i--){\r\n            t.append(s.charAt(i));\r\n        }\r\n        return t.toString();\r\n    }\r\n}\r\n"}

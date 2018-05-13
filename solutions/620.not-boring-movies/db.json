@@ -1,3 +1,0 @@
-{
-  "sql": "select *\nfrom cinema\nwhere mod(id, 2) = 1 and description != 'boring'\norder by rating DESC\n;\n"
-}

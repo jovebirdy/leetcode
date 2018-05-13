@@ -1,3 +1,0 @@
-{
-  "sql": "select name, population, area \nfrom world \nwhere area > 3000000 or population > 25000000;\n"
-}
